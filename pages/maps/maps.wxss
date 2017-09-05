@@ -1,0 +1,31 @@
+/* maps.wxss */
+.fontstyle{
+  color: #65C6BB;
+  
+  display: flex;
+  justify-content: center;
+  text-align-last: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:45rpx;
+  
+}
+
+
+
+.map{
+  
+  position: fixed; 
+  margin:auto; 
+  top:0;
+  
+  width: 95%; 
+  height: 500rpx;
+}
+
+.container{
+  height: 520rpx;
+  width:100%;
+  background-color:#A2DED0;
+  box-shadow: 10rpx 5rpx 80rpx #d7d7d7;
+}
+

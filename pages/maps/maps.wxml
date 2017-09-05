@@ -1,0 +1,20 @@
+
+<view class="container">
+<map id="map" markers="{{markers}}" longitude="-6.256760" latitude="53.343205" scale="17"show-location class='map'></map>
+</view>  
+<!-- <view style="margin-top:600rpx">
+<scroll-view class="block1"data-building="{{item.building}}" data-longitude="{{item.longitude}}" data-latitude="{{item.latitude}}"bindtap="getloc" wx:for="{{coordinates}}">
+<text class="fontstyle">{{item.building}}</text>
+</scroll-view>
+</view> -->
+
+<view >
+<picker-view indicator-style="height: 40px;" data-longitude="{{item.longitude}}" style="width: 100%; height: 300px;" 
+value="{{i}}" bindchange="getloc">
+<picker-view-column>
+<view wx:for ="{{buildings}}">
+<text class="fontstyle">{{item}}</text>
+</view>
+</picker-view-column>
+</picker-view>
+</view>

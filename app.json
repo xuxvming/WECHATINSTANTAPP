@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/maps/maps",
+    "pages/HomePage/HomePage",
+    "pages/lectureTheatres/lectureTheatres",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/services/servies"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#A2DED0",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#6C7A89"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/maps/maps",
+        "text": "locations",
+        "iconPath": "img/map1.png",
+        "selectedIconPath": "img/map.png"
+      },
+      {
+        "pagePath": "pages/HomePage/HomePage",
+        "text": "services",
+        "iconPath": "img/light1.png",
+        "selectedIconPath": "img/light.png"
+      }
+    ]
+  }
+}

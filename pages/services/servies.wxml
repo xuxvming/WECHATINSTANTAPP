@@ -1,0 +1,31 @@
+<!--pages/services/servies.wxml-->
+<view class="block1">
+<text class="fontstyle">Academic Registry</text>
+<text class ="contentstyle1">academic.registry@tcd.ie, Hamilton Building</text>
+
+</view>
+
+<view class="block1">
+<text class="fontstyle">IT Services</text>
+<text class ="contentstyle1">itservices@tcd.ie ,200 Pearse Street</text>
+
+</view>
+
+<view class="block1">
+<text class="fontstyle">Postgraduate Advisory Services</text>
+<text class ="contentstyle1">pgsupp@tcd.ie, 2nd Floor, House 27</text>
+
+</view>
+
+<view class="block1">
+<text class="fontstyle">Career Advisory Services</text>
+<text class ="contentstyle1"> careers@tcd.ie </text>
+
+</view>
+
+
+<view class="block1">
+<text class="fontstyle">Sports Centre</text>
+<text class ="contentstyle1"> sport@tcd.ie </text>
+
+</view>
